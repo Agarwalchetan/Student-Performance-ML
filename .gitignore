@@ -1,0 +1,78 @@
+# Conda / Virtual Environments
+
+venv/
+env/
+.venv/
+ENV/
+.conda/
+
+# Python Cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs and Editors
+
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Environment Variables / Secrets
+
+.env
+.env.*
+!.env.example
+
+# Logs
+
+*.log
+logs/
+
+# Testing / Coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS Generated Files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Machine Learning Artifacts
+
+models/
+checkpoints/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Data Files (uncomment if you don't want datasets on GitHub)
+
+# data/
+
+# datasets/
+
+# *.csv
+
+# *.xlsx
