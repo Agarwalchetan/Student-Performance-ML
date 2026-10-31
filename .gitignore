@@ -59,8 +59,8 @@ desktop.ini
 
 models/
 checkpoints/
-*.pkl
-*.pickle
+# *.pkl
+# *.pickle
 *.joblib
 *.h5
 *.pt
